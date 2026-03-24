@@ -154,6 +154,13 @@ row-no-top {
   }
 }
 
+.form-control:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 1px solid #282828;
+  background-color: $gray;
+}
+
 .form-control::placeholder {
   color: darken(white, 40%);
 }
